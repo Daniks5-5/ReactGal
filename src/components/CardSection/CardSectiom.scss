@@ -1,0 +1,14 @@
+.allCard{
+    position: relative;
+}
+.img{
+  overflow: hidden;
+  max-width: 1150px;
+  width: 100%;
+}
+.title{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    color: azure;
+}
