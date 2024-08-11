@@ -16,4 +16,42 @@
   letter-spacing: -0.04em;
   color: #fffef4;
   left: 40px;
+}
+.allCard .position-card {
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  left: 40px;
+  margin-bottom: 20px;
+}
+.allCard .position-card .flex-card {
+  display: flex;
+  flex-direction: row;
+}
+.allCard .position-card .flex-card .transports {
+  margin-right: 5px;
+  border-radius: 100px;
+  padding: 15px 20px;
+  max-width: 149px;
+  background: #fff59d;
+  text-align: center;
+  font-weight: 700;
+  font-size: clamp(8px, 2vw, 16px);
+  line-height: 94%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #181818;
+}
+.allCard .position-card .flex-card .transports__people {
+  border-radius: 100px;
+  padding: 15px 20px;
+  max-width: 15px;
+  background: #fff59d;
+  text-align: center;
+  font-weight: 700;
+  font-size: clamp(8px, 2vw, 16px);
+  line-height: 94%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #181818;
 }/*# sourceMappingURL=CardSectiom.css.map */
