@@ -1,0 +1,7 @@
+.Title {
+    font-weight: 400;
+    font-size: clamp(25px, 4vw , 80px );
+    line-height: 94%;
+    letter-spacing: -0.04em;
+    color: #181818;
+}

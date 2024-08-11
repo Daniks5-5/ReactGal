@@ -3,8 +3,12 @@ import TravelSection from './components/TravelSection/TravelSection'
 
 function App() {
   return (
+ 
+  
 
-    <TravelSection />
+       <TravelSection />
+
+ 
 
   )
 }

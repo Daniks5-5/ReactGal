@@ -1,16 +1,19 @@
 .allCard {
   position: relative;
 }
-
-.img {
+.allCard img {
   overflow: hidden;
   max-width: 1150px;
   width: 100%;
 }
-
-.title {
+.allCard p {
   position: absolute;
   z-index: 1;
-  bottom: 0;
-  color: azure;
+  bottom: 40px;
+  font-weight: 400;
+  font-size: clamp(10px, 3vw, 45px);
+  line-height: 94%;
+  letter-spacing: -0.04em;
+  color: #fffef4;
+  left: 40px;
 }/*# sourceMappingURL=CardSectiom.css.map */

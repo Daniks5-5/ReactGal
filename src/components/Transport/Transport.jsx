@@ -1,10 +1,11 @@
 import React from "react";
 
-
-function Transport() {
+function Transport(props) {
+  console.log(props);
   return (
     <div>
-        <img src="" alt="" />
+  
+       
     </div>
   )
 }
